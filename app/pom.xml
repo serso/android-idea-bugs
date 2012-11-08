@@ -16,15 +16,16 @@
 
     <dependencies>
 
-        <!-- OWN -->
+		<!-- REMOVING THIS DEPENDENCY ALLOWS IDEA TO BUILD THE PROJECT -->
 		<dependency>
 			<groupId>org.solovyev</groupId>
 			<artifactId>common-core</artifactId>
+			<version>${common.version}</version>
 		</dependency>
 
-        <dependency>
+		<dependency>
             <groupId>org.solovyev.android</groupId>
-            <artifactId>android-common-all</artifactId>
+            <artifactId>android-common-core</artifactId>
             <type>apklib</type>
         </dependency>
 
